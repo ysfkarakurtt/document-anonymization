@@ -1,0 +1,60 @@
+.icon i {
+    margin: 0px 10px;
+
+}
+
+.submit-container {
+    display: flex;
+
+    gap: 30px;
+    margin: 60px auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inputs {
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 280px;
+    height: 60px;
+    background: #eaeaea;
+    border-radius: 6px;
+}
+
+.input input {
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #797979;
+    font-size: 19px;
+}
+
+.card {
+    background-color: #ccc;
+    border-radius: 5px;
+}
+
+.submit {
+
+    width: 220px;
+    height: 49px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+}

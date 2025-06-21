@@ -1,0 +1,43 @@
+.not-found-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+
+.not-found-message {
+    font-size: 40px;
+    font-weight: bold;
+    color: #e74c3c;
+    background-color: #f8d7da;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.not-found-message .icon {
+    font-size: 60px;
+    color: #e74c3c;
+    margin-bottom: 20px;
+}
+
+.not-found-message p {
+    font-size: 20px;
+    color: #333;
+}
+
+.not-found-message a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3498db;
+    font-size: 18px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.not-found-message a:hover {
+    color: #1abc9c;
+}

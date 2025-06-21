@@ -1,0 +1,34 @@
+.anonymized-article-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.anonymized-article-detail h4 {
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.form-group textarea {
+    width: 400px;
+}
+
+.card {
+    margin-top: -50px;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.custom-select {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}

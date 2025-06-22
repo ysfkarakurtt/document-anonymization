@@ -59,5 +59,8 @@ This is a full-stack web application for uploading, anonymizing, and peer-review
 3. Create a `.env` file in `/backend` with MongoDB URI and PORT
 4. Start backend:
 ```bash
-cd server
+cd frontend
+npm run dev
+cd ..
+cd backend
 npm start
